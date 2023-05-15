@@ -1,0 +1,89 @@
+// https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+
+    #splash {
+        background-color: rgb(0, 0, 0);
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    #info {
+        font-size: 1.25rem;
+    }
+
+    a {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.5s ease all;
+        opacity: 0.5;
+
+        img {
+            filter: invert(1);
+            width: 3rem;
+            height: auto;
+        }
+
+        &:hover {
+            opacity: 1;
+            bottom: 10px;
+        }
+    }
+
+    section {
+        padding: 0 10rem;
+        display: grid;
+        place-content: center;
+        height: 50%;
+    }
+}
+
+.test {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    gap: 2rem;
+
+    a {
+        color: white;
+        font-size: 10rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 2rem;
+        border: 1px solid rgb(var(--text));
+        transition: 0.5s ease all;
+
+        &:hover {
+            transform: translateY(-10px);
+            background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow_animation 3s ease-in-out infinite;
+            background-size: 400% 100%;
+        }
+    }
+}
