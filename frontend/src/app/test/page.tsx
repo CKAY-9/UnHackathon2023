@@ -29,7 +29,7 @@ const TestSelection = () => {
                 </div>
                 <p>
                     Our tests are meant to test your abilities on recognizing false information and your knowledge of the internet.
-                    If you don't feel confident in your skill to detect misinformation, please go to our <Link href="/learn">learn</Link> page.
+                    If you don&apos;t feel confident in your skill to detect misinformation, please go to our <Link href="/learn">learn</Link> page.
                     
                 </p>
             </main>

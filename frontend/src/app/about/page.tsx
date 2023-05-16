@@ -18,8 +18,8 @@ const About = () => {
                     programming and general development of Knowledge Cleanse was done by Cameron A. Cameron helped edit the test questions.
                 </p>
                 <p>
-                    Knowledge Cleanse's frontend was developed in NextJS with the TypeScript template, using the Sass and Axios packages for styling and API fetching.
-                    The backend of Knowledge Cleanse was developed in ExpressJS with TypeScript. It uses PostgreSQL for saving leaderboard information.
+                    Knowledge Cleanse&apos;s frontend was developed in NextJS with the TypeScript template, using the Sass and Axios packages for styling and API fetching.
+                    The backend of Knowledge Cleanse was developed in ExpressJS with TypeScript. It uses MongoDB for saving leaderboard information.
                 </p>
                 <div className={style.img}>
                     All image and other resources are credited directly on the resource. Hovering 

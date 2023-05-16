@@ -31,7 +31,7 @@ const Source = (props: SourceProps) => {
                 sourceData.style.display = "none"; 
             }
         }
-    }, []);
+    }, [props.id]);
 
     return (
         <div className={style.source}>
