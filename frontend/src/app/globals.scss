@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-	--bg: 10, 20, 25;
-	--fg: 45, 55, 65;
+	--bg: 10, 10, 15;
+	--fg: 20, 20, 30;
 	--accent: 100, 120, 200;
-
 	--text: 255, 255, 255;
+}
+
+* {
+	scroll-behavior: smooth;
 }
 
 body {
@@ -16,8 +19,20 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
+a {
+	color: rgb(var(--text));
+	text-decoration: none;
+	text-transform: uppercase;
+
+	transition: 0.5s ease all;
+
+	&:hover {
+		color: rgb(var(--accent));
+	}
+}
+
 .container {
-	margin: 5rem 20rem;
+	margin: 5rem 25rem;
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;

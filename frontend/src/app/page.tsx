@@ -1,10 +1,12 @@
 import Link from "next/link";
 import style from "./home.module.scss";
+import Header from "@/components/header/header";
 
 const Home = () => {
 	return (
 		<>
 			<title>Knowledge Cleanse | #UnHackathon 2023</title>
+			<Header></Header>
 			<div className={style.landing}>
 				<section className={style.field}>
 					<section id={style.splash}>
@@ -28,7 +30,7 @@ const Home = () => {
 					</section>
 				</section>
 				<section className={style.getStarted} style={{"backgroundColor": "rgb(0, 0, 0)"}}>
-					<Link href="/learn">Get Started</Link>
+					<Link href="/learn#0">Get Started</Link>
 				</section>
 			</div>
 		</>

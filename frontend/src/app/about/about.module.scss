@@ -1,0 +1,12 @@
+.img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+        filter: invert(1);
+        width: 2rem;
+        height: auto
+    }
+}
