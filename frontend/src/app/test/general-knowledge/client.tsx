@@ -73,7 +73,7 @@ export const Test = (props: TestProps) => {
         if (q >= props.questions.length && endTime === 0) {
             setEndTime(new Date().getTime());
         }
-    }, [props.questions.length, q]);
+    }, [props.questions.length, q, endTime]);
 
     const changeQuestion = (wasCorrect: boolean) => {
         if (wasCorrect) {
