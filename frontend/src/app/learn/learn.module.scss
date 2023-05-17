@@ -27,10 +27,10 @@
 
 .section {
     min-height: 100vh;
-    height: 100vh;
     position: relative;
 
     #splash {
+        height: 50vh;
         display: flex;
         padding: 0;
         flex-direction: column;
@@ -56,10 +56,20 @@
 
     #info {
         font-size: 1.25rem;
+        min-height: 50vh;
+
+        a {
+            position: relative;
+            animation: none;
+            opacity: 1;
+            &:hover {
+                animation: none;
+            }
+        }
     }
 
     a {
-        position: absolute;
+        position: relative;
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
@@ -78,10 +88,9 @@
     }
 
     section {
-        padding: 0 10rem;
+        padding: 0rem 10rem;
         display: grid;
         place-content: center;
-        height: 50%;
     }
 }
 

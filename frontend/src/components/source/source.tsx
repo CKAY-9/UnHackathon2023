@@ -18,15 +18,10 @@ const Source = (props: SourceProps) => {
         const sourceData = document.getElementById(`sourceData${props.id}`);
         if (sourceImg !== null && sourceData !== null) {
             sourceImg.onmouseover = () => {
-                sourceImg.style.opacity = "1";
                 sourceData.style.opacity = "1"
                 sourceData.style.display = "flex";
             }
-            sourceData.onmouseover = () => {
-                sourceImg.style.opacity = "1";
-            }
             sourceData.onmouseleave = () => {
-                sourceImg.style.opacity = "0.5";
                 sourceData.style.opacity = "0"
                 sourceData.style.display = "none"; 
             }

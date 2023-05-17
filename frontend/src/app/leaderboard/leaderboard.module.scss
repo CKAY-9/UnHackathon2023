@@ -1,0 +1,10 @@
+.entries {
+    * {
+        text-align: left;
+        padding: 1rem;
+    }
+
+    *:nth-child(odd) td {
+        background-color: rgb(var(--fg));
+    }
+}

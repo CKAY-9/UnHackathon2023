@@ -61,12 +61,48 @@ const Learn = () => {
                         <p>
                             There are some common characteristics that may show up when viewing false information.
                         </p>
+                        <ul style={{"listStyle": "numeric"}}>
+                            <li>Unbelievable or outrageous headlines</li>
+                            <li>Sketchy accounts/posters</li>
+                            <li>No avaliable sources or articles for more information</li>
+                            <li>Unreliable or non-verifiable websites/organizations</li>
+                            <li>Images that look like CGI, or generally fake images</li>
+                            <li>Outdated information</li>
+                            <li>Inconsistent and or conflicting information</li>
+                        </ul>
+                        <h1>Resources</h1>
+                        <div style={{"display": "flex", "flexDirection": "column", "marginBottom": "3rem"}}>
+                            <Link href="https://www.canada.ca/en/campaign/online-disinformation.html" target="_blank">Government of Canada Online Fact Checking website</Link>
+                            <Link href="https://www.youtube.com/watch?v=xDLohXNgF4o" target="_blank">Disinformation</Link>
+                            <Link href="https://www.youtube.com/watch?v=HD5MmuLDeFE" target="_blank">Mis-information, Dis-information, Mal-information</Link>
+                            <Link href="https://www.youtube.com/watch?v=E-049KTrYBg">Four ways to tell if something is true online</Link>
+                            <Link href="https://mediasmarts.ca/break-fake" target="_blank">Break the Fake</Link>
+                            <Link href="https://mediasmarts.ca/sites/mediasmarts/files/tutorials/e-learning-module/story.html" target="_blank">Workshop</Link>
+                        </div>
                     </section>
                     <a href={`/learn#3`}>
                         <Image src="/downarrow.svg" alt="Down arrow" sizes="100%" width={0} height={0}></Image>
                     </a>
                 </section>
-                <section id="3" className={style.test}>
+                <section id="3" className={style.section}>
+                    <section style={{"backgroundImage": "url('/learn/four.jpg')"}} id={style.splash}>
+                        <div id={style.content}>
+                            <h1>Why should you care?</h1>
+                            <Source id="3" url="https://www.pxfuel.com/en/query?q=forest+aesthetic"></Source>
+                        </div>
+                    </section>
+                    <section id={style.info}>
+                        <p>
+                            Stopping the spread of false information on the internet leads to a safer, and more factual internet. 
+                            Misinformation can lead to major damage if it targets science, political, or social topics. We must
+                            stop the spread of harmful information.
+                        </p>
+                    </section>
+                    <a href={`/learn#4`}>
+                        <Image src="/downarrow.svg" alt="Down arrow" sizes="100%" width={0} height={0}></Image>
+                    </a>
+                </section>
+                <section id="4" className={style.test}>
                     <h2>Feeling Confident?</h2>
                     <Link href="/test">Pick a test</Link>
                 </section>

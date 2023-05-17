@@ -1,0 +1,1 @@
+export const API = process.env.NEXT_PUBLIC_U_API_URL || "http://localhost:3001";

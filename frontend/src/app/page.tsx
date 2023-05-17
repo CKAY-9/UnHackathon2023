@@ -14,15 +14,14 @@ const Home = () => {
 					</section>
 					<section id={style.info} style={{"textAlign": "center"}}>
 						<h2 style={{"fontSize": "3rem"}}>#UnHackathon 2023 Submission</h2>
-						<p>Developed by Cameron A. Designed by Ali K.</p>
+						<p>Developed by Cameron A., Designed by Ali K.</p>
 					</section>
 				</section>
 				<section className={style.field}>
 					<section id={style.info}>
 						<p>
-							The purpose of Knowledge Cleanse is to teach the youth ways to keep their minds clean and rid
-							of false information. False information is all around the internet and the mind of the people
-							must be cleansed.
+							The purpose of Knowledge Cleanse is to teach people how to notice misinformation and how to response.
+							Knowledge Cleanse will teach you the skills to recognize false information and learn about truthful information. 
 						</p>
 					</section>
 					<section id={style.splash}>

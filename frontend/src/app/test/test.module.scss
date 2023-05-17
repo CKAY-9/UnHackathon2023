@@ -14,12 +14,17 @@
         justify-content: flex-start;
         border-radius: 2rem;
 
-        color: rgb(var(--text));
-        text-decoration: none;
+        box-shadow: var(--shdw1);
 
+        color: rgb(var(--text));
+        text-align: center;
+        text-decoration: none;
+        text-transform: unset;
+        
         transition: 0.5s ease all;
 
         &:hover {
+            box-shadow: var(--shdw2);
             transform: translateY(-10px);
             border-radius: 1rem;
         }
