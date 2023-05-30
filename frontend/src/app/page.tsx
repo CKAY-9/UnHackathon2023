@@ -20,7 +20,7 @@ const Home = () => {
 				<section className={style.field}>
 					<section id={style.info}>
 						<p>
-							The purpose of Knowledge Cleanse is to teach people how to notice misinformation and how to response.
+							The purpose of Knowledge Cleanse is to teach people how to notice misinformation and how to respond.
 							Knowledge Cleanse will teach you the skills to recognize false information and learn about truthful information. 
 						</p>
 					</section>

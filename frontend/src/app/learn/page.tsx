@@ -41,7 +41,7 @@ const Learn = () => {
                             Before we continue, we should get our definitions down.
                         </p>
                         <ul>
-                            <li><strong>Misinformation</strong>: false or inaccurate information, especially that which is deliberately intended to deceive.</li>
+                            <li><strong>Misinformation</strong>: false or inaccurate information, but not created with the intention of doing any wrong.</li>
                             <li><strong>Disinformation</strong>: false information which is intended to mislead, especially propaganda issued by a government organization to a rival power or the media.</li>
                             <li><strong>Reliable Information</strong>: information which is based on reality and can be proven true</li>
                         </ul>
@@ -94,7 +94,7 @@ const Learn = () => {
                     <section id={style.info}>
                         <p>
                             Stopping the spread of false information on the internet leads to a safer, and more factual internet. 
-                            Misinformation can lead to major damage if it targets science, political, or social topics. We must
+                            False information can lead to major damage if it targets science, political, or social topics. We must
                             stop the spread of harmful information.
                         </p>
                     </section>
